@@ -19,6 +19,19 @@
     padding: 0;
 }
 
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    white-space: nowrap;
+    clip: rect(0, 0, 0, 0);
+    visibility: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
 ul,
 ol,
 li {
@@ -42,6 +55,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 12px;
+    min-height: 100vh;
     color: var(--ColorText);
     background-color: var(--ColorBgContainer);
     font-family: "Sefoe UI", sans-serif;
@@ -356,6 +370,7 @@ nav {
 
 footer {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
