@@ -1,0 +1,134 @@
+body {
+    background-color: #f4f5f7;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.navbar-eduportal {
+    background-color: #1c1f26;
+}
+.hero-card {
+    border-radius: 12px;
+    border: 1px solid #e9eaec;
+    background: #ffffff;
+}
+.card-header-blue {
+    background-color: #3b7ef6;
+    color: #fff;
+    font-weight: 600;
+}
+.card-header-yellow {
+    background-color: #f6b90f;
+    color: #1c1f26;
+    font-weight: 600;
+}
+.card-header-dark {
+    background-color: #1c1f26;
+    color: #fff;
+    font-weight: 600;
+}
+.progress {
+    height: 8px;
+}
+.badge-high {
+    background-color: #e0405a;
+}
+.badge-medium {
+    background-color: #6c7580;
+}
+.badge-low {
+    background-color: #17c3d6;
+    color: #063a40;
+}
+.stat-box {
+    background-color: #f7f8fa;
+    border: 1px solid #eceef1;
+    border-radius: 8px;
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+.stat-value {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.stat-label {
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    color: #7a828e;
+}
+.form-section-title {
+    color: #3b7ef6;
+    font-weight: 700;
+    border-bottom: 1px solid #eceef1;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+.form-panel {
+    border: 1px solid #eceef1;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+.btn-eduportal-primary,
+.btn-eduportal-dark,
+.btn-eduportal-success {
+    color: #fff;
+}
+.btn-eduportal-primary {
+    background-color: #3b7ef6;
+    border-color: #3b7ef6;
+}
+.btn-eduportal-primary:hover,
+.btn-eduportal-primary:focus,
+.btn-eduportal-primary:active {
+    background-color: #2f6ad9;
+    border-color: #2f6ad9;
+    color: #fff;
+}
+.btn-eduportal-dark {
+    background-color: #1c1f26;
+    border-color: #1c1f26;
+}
+.btn-eduportal-dark:hover,
+.btn-eduportal-dark:focus,
+.btn-eduportal-dark:active {
+    background-color: #30343e;
+    border-color: #30343e;
+    color: #fff;
+}
+.btn-eduportal-success {
+    background-color: #1f8b53;
+    border-color: #1f8b53;
+}
+.btn-eduportal-success:hover,
+.btn-eduportal-success:focus,
+.btn-eduportal-success:active {
+    background-color: #197144;
+    border-color: #197144;
+    color: #fff;
+}
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.4);
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+.navbar-eduportal .navbar-collapse {
+    margin-top: 0.75rem;
+}
+@media (max-width: 991.98px) {
+    .navbar-eduportal .navbar-nav {
+        gap: 0.25rem !important;
+    }
+    .hero-card,
+    .form-panel {
+        padding: 1.75rem !important;
+    }
+    .d-flex.justify-content-end.gap-2 {
+        flex-direction: column;
+    }
+    .d-flex.justify-content-end.gap-2 .btn {
+        width: 100%;
+    }
+}
+footer {
+    background-color: #1c1f26;
+    color: #b7bcc4;
+}
